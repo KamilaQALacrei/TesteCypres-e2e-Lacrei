@@ -8,6 +8,6 @@ describe('Funcionalidade botão criar conta profissional'), () =>
       cy.clearCookies() 
     })
 
-    it('Cenário 1: Cadastrar ', () => {
+    it('Cenário 1: Acessar página de cadastro ', () => {
         
     });
