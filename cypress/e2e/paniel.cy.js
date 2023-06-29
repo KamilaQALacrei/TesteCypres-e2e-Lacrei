@@ -17,9 +17,13 @@
         cy.get('[type="submit"]').click()
 
         cy.get('h1').should('contain', 'Boas-vindas à Lacrei Saúde') 
-        cy.get('.forgot-password').should('contain', 'Esqueci minha senha')  
         cy.get('p').should('contain', 'Entre ou crie sua conta Lacrei Saúde.')  
-        
+        cy.get(':nth-child(1) > .sc-16me5u5-1').should('contain', 'E-mail') 
+        cy.get(':nth-child(2) > .sc-16me5u5-1').should('contain', 'Senha')  
+        cy.get('[type="submit"]').should('contain', 'Entrar') 
+        cy.get('.sc-18p54ra-0 > .sc-18p54ra-1').should('contain', 'Criar conta') 
+        cy.get('.forgot-password').should('contain', 'Esqueci minha senha')  
+         
           
          
           });
