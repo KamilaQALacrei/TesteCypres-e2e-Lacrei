@@ -2,14 +2,14 @@
 
 
 
-    describe('Funcionalidade botão cadastrar profissional', () => {
+    describe('Funcionalidade realizar login e acessar página de castro profissional/painel', () => {
         beforeEach(() => {
           cy.visit('https://lacrei-pessoa-profissional.vercel.app/');
           cy.clearCookies() 
         });
         
       
-        it('Cenário 1: Acessar página de cadastro', () => {
+        it('Cenário 1: Acessar página de cadastro/Painel', () => {
             cy.get(':nth-child(1) > .sc-16me5u5-2').click()
             cy.get(':nth-child(1) > .sc-16me5u5-2').type("chriscsantos.qa@gmail.com")
             cy.get(':nth-child(2) > .sc-16me5u5-2').click()
