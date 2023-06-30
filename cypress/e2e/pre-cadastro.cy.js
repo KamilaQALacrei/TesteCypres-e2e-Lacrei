@@ -33,9 +33,11 @@ describe('Funcionalidade botão criar conta profissional', () => {
     cy.get("span[role='checkbox']").click()
     cy.get(':nth-child(1) > .sc-18p54ra-1').click()
    
-    
+   
+    });
 
-    
+    it('Cenário 2: Teste de exatidão de texto', () => {
+      
     cy.get('h1').should('contain', 'Informe o Estado onde você atua')
     cy.get('.placeholder').should('contain', 'Selecione o Estado')
     cy.get('#label\:7b06c01432be128d5f871c46b70bf6c9').should('contain', 'Estado')
@@ -46,7 +48,7 @@ describe('Funcionalidade botão criar conta profissional', () => {
     cy.get(':nth-child(5) > .sc-16me5u5-1').should('contain', 'Senha')
     cy.get(':nth-child(6) > .sc-16me5u5-1').should('contain', 'Confirmar senha')
     cy.get('.sc-2bp86y-2 > p').should('contain', 'Antes de continuar, verifique se as informações estão corretas.')
-  
+
     });
-    
+
   });
