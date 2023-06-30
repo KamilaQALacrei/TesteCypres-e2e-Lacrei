@@ -11,7 +11,7 @@ describe('Funcionalidade botão criar conta profissional', () => {
   });
   
 
-  it('Cenário 1:Criar conta', () => {
+  it('Cenário 1:Validar a criação de conta profissonal', () => {
   
     cy.get('.sc-18p54ra-0 > .sc-18p54ra-1').click()
     cy.get(':nth-child(2) > .sc-18p54ra-1').click()

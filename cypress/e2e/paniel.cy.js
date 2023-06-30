@@ -9,7 +9,7 @@
         });
         
       
-        it('Cenário 1: Acessar página de cadastro/Painel', () => {
+        it('Cenário 1: Validar login e acesso a página de cadastro profissional/Painel', () => {
             cy.get(':nth-child(1) > .sc-16me5u5-2').click()
             cy.get(':nth-child(1) > .sc-16me5u5-2').type("chriscsantos.qa@gmail.com")
             cy.get(':nth-child(2) > .sc-16me5u5-2').click()
