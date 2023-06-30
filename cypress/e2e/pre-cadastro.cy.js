@@ -46,13 +46,7 @@ describe('Funcionalidade botão criar conta profissional', () => {
     cy.get(':nth-child(5) > .sc-16me5u5-1').should('contain', 'Senha')
     cy.get(':nth-child(6) > .sc-16me5u5-1').should('contain', 'Confirmar senha')
     cy.get('.sc-2bp86y-2 > p').should('contain', 'Antes de continuar, verifique se as informações estão corretas.')
-
-
-
-   
- 
   
-    
-   
     });
+    
   });

@@ -35,16 +35,9 @@
             cy.get(':nth-child(1) > .sc-16wss1z-1 > .sc-16wss1z-2').should('contain', 'Clique no botão “Cadastrar” para enviar seu cadastro') 
             cy.get(':nth-child(2) > .sc-16wss1z-1 > .sc-16wss1z-2').should('contain', 'Edite seu perfil com dados de diversidade') 
             cy.get(':nth-child(3) > .sc-16wss1z-1 > .sc-16wss1z-2').should('contain', 'Acesse a área de Segurança e Privacidade') 
-            
-
-            
-
-
-
+          
         
-        });
-
-  
+        }); 
 
 
 
